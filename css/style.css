@@ -105,15 +105,18 @@ a {
 }
 
 .header__link_search {
-	background: url(../img/social-icons/search.svg) center center no-repeat;
-	height: 22px;
-	width: 25px;
+	background: url(../img/social-icons/search.png) center 15% no-repeat;
+	height: 30px;
+	width: 35px;
+	background-size: 66%;
 }
 
 .header__link_facebook {
-	background: url(../img/social-icons/facebook.svg) center center no-repeat;
-	height: 22px;
-	width: 18px;
+	/*background-size: 1250%;*/
+	background: url(../img/social-icons/socials-sprite.png) -2% 120% no-repeat;
+	/*background-position: -2% -50%;*/
+	height: 30px;
+	width: 35px;
 	margin-left: 25px;
 }
 
@@ -239,7 +242,7 @@ a {
 /*icons*/
 
 .skills__icon_flag {
-	background: #bc2e3a url(../img/skills/sprite.png) 0% 3%;
+	background: #bc2e3a url(../img/social-icons/socials-sprite.png) 0% 3%;
 }
 
 .skills__icon_display {
@@ -673,45 +676,42 @@ a {
 }
 
 .footer__social-link {
+	flex-shrink: 0;
 	display: block;
-	width: 30px;
-	height: 27px;
-	padding: 0 40px;
+	width: 35px;
+	height: 30px;
+	margin: 0 20px;
+	background: url(../img/social-icons/socials-sprite.png) no-repeat;
+	background-size: 1200%;
 }
 
 .footer__social-link_facebook {
-	background: url(../img/social-icons/facebook.svg) center center no-repeat;
-	background-size: contain;
+	background-position: -2% center;
+	
 }
 
 .footer__social-link_google-plus {
-	background: url(../img/social-icons/google-plus.svg) center center no-repeat;
-	background-size: contain;
+	background-position: 16% center;
 }
 
 .footer__social-link_vk {
-	background: url(../img/social-icons/vk.svg) center center no-repeat;
-	background-size: contain;
+	background-position: 33% center;
 }
 
 .footer__social-link_youtube {
-	background: url(../img/social-icons/youtube.svg) center center no-repeat;
-	background-size: contain;
+	background-position: 49.5% center;
 }
 
 .footer__social-link_linkedin {
-	background: url(../img/social-icons/linkedin.svg) center center no-repeat;
-	background-size: contain;
+	background-position: 66.5% center;
 }
 
 .footer__social-link_digg {
-	background: url(../img/social-icons/digg.png) center center no-repeat;
-	background-size: contain;
+	background-position: 83.5% center;
 }
 
 .footer__social-link_unnamed-icon {
-	background: url(../img/social-icons/unknown.png) center center no-repeat;
-	background-size: contain;
+	background-position: 100% center;
 }
 
 .footer__copyright {
