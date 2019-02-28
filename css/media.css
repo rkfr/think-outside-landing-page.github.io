@@ -11,6 +11,7 @@
 	
 	.procedure__elements {
 		padding: 0 30px;
+		margin-right: 30px;
 	}
 
 	.procedure__cards {
@@ -41,9 +42,30 @@
 		justify-content: space-around;
 	}
 
+	.header__model {
+		width: 670px;
+		height: 700px;
+		top: 300px;
+	}
+
 }
 
 @media screen and (max-width: 1160px) {
+
+	.header {
+		background-position: 20% center;
+	}
+
+	.header__model {
+		position: absolute;
+		width: 570px;
+		height: 600px;
+		top: 50%;
+	}
+
+	.procedure__elements {
+		margin-right: 0;
+	}
 
 	.procedure__card:hover .procedure__card_text-content {
 		transform: translateY(-130px);
@@ -82,6 +104,7 @@
 
 	.header__top-section {
 		align-items: flex-start;
+		margin-bottom: 300px;
 	}
 
 	.nav-menu {
@@ -93,8 +116,19 @@
 		padding-bottom: 10px;
 	}
 
+	.header__model {
+		position: absolute;
+		width: 470px;
+		height: 500px;
+	}
+
 	.info::before {
 		right: -45%;
+	}
+
+	.skills__item {
+		justify-content: center;
+
 	}
 
 	.procedure__card_text-content {

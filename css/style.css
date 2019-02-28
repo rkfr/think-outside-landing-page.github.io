@@ -114,9 +114,7 @@ a {
 }
 
 .header__link_facebook {
-	/*background-size: 1250%;*/
 	background: url(../img/social-icons/socials-sprite.png) -2% 120% no-repeat;
-	/*background-position: -2% -50%;*/
 	height: 30px;
 	width: 35px;
 	margin-left: 25px;
@@ -128,18 +126,18 @@ a {
 	position: relative;
 	top: 60px;
 	left: 270px;
-	z-index: 1;
+	z-index: 2;
 }
 
 .header__model {
 	position: absolute;
 	right: 0;
-	top: 100px;
+	top: 150px;
 	width: 870px;
 	height: 900px;
 	background: url(../img/header/model-image.png) center center no-repeat;
 	background-size: 100%;
-	z-index: 0;
+	z-index: 1;
 }
 
 /*info*/
@@ -177,7 +175,8 @@ a {
 }
 
 .info__button {
-	/*position: relative;*/
+	position: relative;
+	z-index: 1;
 }
 
 .info__picture {
@@ -186,12 +185,6 @@ a {
 	background-size: contain;
 	position: relative;
 }
-
-/*.info__display {
-	display: block;
-	width: 100%;
-	height: auto;
-}*/
 
 /*skills*/
 
@@ -412,6 +405,8 @@ a {
 
 .team__title {
 	text-align: center;
+	position: relative;
+	z-index: 1;
 }
 
 .team__slider {
