@@ -9,16 +9,16 @@ $(function() {
         nextArrow: '<button class="next slider-arrow-style" type="button"><div class="next-slide"></div></button>',
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 890,
         settings: {
           arrows: true,
           centerMode: true,
           centerPadding: '0',
-          slidesToShow: 3
+          slidesToShow: 2
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 640,
         settings: {
           arrows: false,
           centerMode: true,

@@ -74,6 +74,8 @@ a {
 .header__top-section {
 	align-items: center;
 	margin-bottom: 570px;
+	position: relative;
+	z-index: 1;
 }
 
 .header__nav-menu {
@@ -126,6 +128,7 @@ a {
 	position: relative;
 	top: 60px;
 	left: 270px;
+	z-index: 1;
 }
 
 .header__model {
@@ -136,7 +139,7 @@ a {
 	height: 900px;
 	background: url(../img/header/model-image.png) center center no-repeat;
 	background-size: 100%;
-	z-index: 1;
+	z-index: 0;
 }
 
 /*info*/
@@ -168,6 +171,9 @@ a {
 
 .info__text {
 	margin: 75px 0;
+	max-width: 480px;
+	width: 100%;
+	display: block;
 }
 
 .info__button {
@@ -213,7 +219,7 @@ a {
 
 .skills__items {
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 	flex-wrap: wrap;
 }
 
@@ -242,7 +248,7 @@ a {
 /*icons*/
 
 .skills__icon_flag {
-	background: #bc2e3a url(../img/social-icons/socials-sprite.png) 0% 3%;
+	background: #bc2e3a url(../img/skills/sprite.png) 0% 4%;
 }
 
 .skills__icon_display {
@@ -290,6 +296,11 @@ a {
 	border-top: 550px solid transparent;
 	border-right: 600px solid #bc2e3a;
 	border-bottom: 550px solid transparent;
+	z-index: 1;
+}
+
+.procedure__title {
+	position: relative;
 	z-index: 1;
 }
 
@@ -355,7 +366,7 @@ a {
 }
 
 
-.procedure__card_ideas {
+.procedure__card_text-content {
 	position: absolute;
 	width: 80%;
 	left: 50px;
@@ -372,7 +383,7 @@ a {
 	transform: skew(25deg);
 }
 
-.procedure__card:hover .procedure__card_ideas {
+.procedure__card:hover .procedure__card_text-content {
 	transform: translateY(-90px);
 }
 
