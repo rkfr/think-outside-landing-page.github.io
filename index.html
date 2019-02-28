@@ -4,13 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Seowave TT</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato|Lemon|Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 	<header class="header">
-		<div class="container"> <!-- mw1460px -->
+		<div class="header__container"> <!-- mw1460px -->
 			<div class="header__top-section d-flex">
 				<a href="#" class="header__logo-link">
 					<img src="img/header/agency-logo.png" alt="Company logo" class="header__logo-image">
@@ -40,21 +41,17 @@
 						</li>
 					</ul>
 				</nav>
-				<div class="header__link">
-					<a href="#" class="header__links">1</a>
-					<a href="#" class="header__links">2</a>
+				<div class="header__links">
+					<a href="#" class="header__link">1</a>
+					<a href="#" class="header__link">2</a>
 				</div>
 			</div>
-			<div class="header__offer">
-				<h1 class="header__offer-title">Think outside of the box</h1>
-				<a href="#" class="button header__button">Read more</a>
-			</div>
+			<a href="#" class="button header__button">Read more</a>
 		</div>
-		
 		<div class="header__model"></div>
 	</header>
 	<section class="info">
-		<div class="container">
+		<div class="container d-flex">
 			<div class="info__about">
 				<h2 class="info__title title">Who we are</h2>
 				<p class="info__text">
@@ -63,16 +60,16 @@
 				<a href="#" class="button info__button">Read more</a>
 			</div>
 			<div class="info__picture">
-				<img src="#" alt="Macbook image" class="info__display">
+				<!-- <img src="img/info/display.jpg" alt="Macbook image" class="info__display"> -->
 			</div>
 		</div> 
 	</section>
 	<section class="skills">
 		<div class="container">
 			<h2 class="skills__title title">What we do</h2>
-			<div class="skills__items">
+			<div class="skills__items d-flex">
 				<div class="skills__item">
-					<img src="#" alt="icon" class="skills__icon">
+					<div class="skills__icon skills__icon_flag"></div>
 					<div class="skills__about">
 						<h3 class="skills__name">Creative Work</h3>
 						<p class="skills__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
@@ -80,7 +77,7 @@
 					</div>
 				</div>
 				<div class="skills__item">
-					<img src="#" alt="icon" class="skills__icon">
+					<div class="skills__icon skills__icon_display"></div>
 					<div class="skills__about">
 						<h3 class="skills__name">We do best</h3>
 						<p class="skills__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
@@ -88,7 +85,7 @@
 					</div>
 				</div>
 				<div class="skills__item">
-					<img src="#" alt="icon" class="skills__icon">
+					<div class="skills__icon skills__icon_stats"></div>
 					<div class="skills__about">
 						<h3 class="skills__name">Best company</h3>
 						<p class="skills__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
@@ -96,7 +93,7 @@
 					</div>
 				</div>
 				<div class="skills__item">
-					<img src="#" alt="icon" class="skills__icon">
+					<div class="skills__icon skills__icon_service"></div>
 					<div class="skills__about">
 						<h3 class="skills__name">Nice idea</h3>
 						<p class="skills__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
@@ -104,7 +101,7 @@
 					</div>
 				</div>
 				<div class="skills__item">
-					<img src="#" alt="icon" class="skills__icon">
+					<div class="skills__icon skills__icon_location"></div>
 					<div class="skills__about">
 						<h3 class="skills__name">Professional</h3>
 						<p class="skills__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
@@ -112,7 +109,7 @@
 					</div>
 				</div>
 				<div class="skills__item">
-					<img src="#" alt="icon" class="skills__icon">
+					<div class="skills__icon skills__icon_message"></div>
 					<div class="skills__about">
 						<h3 class="skills__name">Great Services</h3>
 						<p class="skills__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
@@ -125,19 +122,25 @@
 	<section class="procedure">
 		<div class="container">
 			<h2 class="procedure__title title">How we works</h2>
-			<div class="procedure__elements">
+			<div class="procedure__elements d-flex">
 				<div class="procedure__text-content">
-					....
+					<p class="procedure__description">
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+					</p>
+					<a href="#" class="procedure__button button">Read more</a>
 				</div>
-				<div class="procedure__cards">
+				<div class="procedure__cards d-flex">
 					<div class="procedure__card">
-						<img src="#" alt="idea" class="procedure__image">
+						<h3 class="procedure__card-title">Idea</h3>
+						<img src="img/procedure/idea-1.png" alt="idea" class="procedure__image procedure__image_idea">
 					</div>
 					<div class="procedure__card">
-						<img src="#" alt="idea" class="procedure__image">
+						<h3 class="procedure__card-title">Idea</h3>
+						<img src="img/procedure/idea-2.png" alt="idea" class="procedure__image procedure__image_design">
 					</div>
 					<div class="procedure__card">
-						<img src="#" alt="idea" class="procedure__image">
+						<h3 class="procedure__card-title">Idea</h3>
+						<img src="img/procedure/idea-3.png" alt="idea" class="procedure__image procedure__image_output">
 					</div>
 				</div>
 			</div>
