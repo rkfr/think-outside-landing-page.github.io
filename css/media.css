@@ -63,6 +63,10 @@
 		top: 50%;
 	}
 
+	.info::before {
+		right: -25%;
+	}
+
 	.procedure__elements {
 		margin-right: 0;
 	}
@@ -228,7 +232,7 @@
 
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 640px) {
 	
 	.header__button {
 		left: 30%;
@@ -246,10 +250,22 @@
 		right: -115%;
 	}
 
+	.team__name {
+		left: 195px;
+	}
+
+	.team__role {
+		left: 225px;
+	}
+
 	.review::before {
 		border-top: 250px solid transparent;
 		border-left: 300px solid #bc2e3a;
 		border-bottom: 250px solid transparent;
+	}
+
+	.review__title {
+		left: 15px;
 	}
 
 	.footer__contacts {
@@ -278,4 +294,26 @@
 		order: 1;
 	}
 
+}
+
+@media screen and (max-width: 520px) {
+
+	.team__name {
+		left: 125px;
+	}
+
+	.team__role {
+		left: 165px;
+	}
+}
+
+@media screen and (max-width: 410px) {
+
+	.team__name {
+		right: 20%;
+	}
+
+	.team__role {
+		right: 22%;
+	}
 }
