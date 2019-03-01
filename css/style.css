@@ -58,6 +58,13 @@ a {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	font-size: 21px;
+	transition: .4s ease-out;
+}
+
+.button:hover {
+	transform: scale(1.02);
+	background: #FF8000;
+	color: #fff;
 }
 
 .header__container {
@@ -85,6 +92,14 @@ a {
 	z-index: 2;
 }
 
+.header__logo-link {
+	transition: .4s;
+}
+
+.header__logo-link:hover {
+	transform: scale(1.1);
+}
+
 .header__nav-menu {
 	flex: 1 1 1190px;
 }
@@ -103,6 +118,11 @@ a {
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
 	font-size: 15px;
+	transition: .6s ease;
+}
+
+.nav-menu__link:hover {
+	color: #FF8000;
 }
 
 .header__links {
@@ -111,6 +131,11 @@ a {
 
 .header__link {
 	display: block;
+	transition: .4s;
+}
+
+.header__link:hover {
+	transform: scale(1.1);
 }
 
 .header__link_search {
@@ -519,6 +544,18 @@ a {
 	
 }
 
+.prev-slide,
+.next-slide {
+	transition: .5s;
+}
+
+.prev-slide:hover {
+	border-right: 35px solid #DF7401;
+}
+.next-slide:hover {
+	border-left: 35px solid #DF7401;
+}
+
 .prev-slide {
 	width: 0;
 	height: 0;
@@ -576,7 +613,7 @@ a {
 .review__title {
 	position: relative;
 	z-index: 1;
-	position: relative;
+	display: inline-block;
 	left: 19.38%;
 }
 
@@ -733,6 +770,11 @@ a {
 	margin: 0 20px;
 	background: url(../img/social-icons/socials-sprite.png) no-repeat;
 	background-size: 1200%;
+	transition: .3s ease-in;
+}
+
+.footer__social-link:hover {
+	transform: scale(1.1);
 }
 
 .footer__social-link_facebook {
