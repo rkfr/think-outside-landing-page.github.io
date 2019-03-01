@@ -1,9 +1,11 @@
-/*
-font-family: 'Lato', sans-serif;
-font-family: 'Lemon', cursive;
-font-family: 'Open Sans', sans-serif;
-*/
 
+/*header*/
+/*info*/
+/*skills*/
+/*procedure*/
+/*team*/
+/*review*/
+/*footer*/
 
 *,
 *::before,
@@ -224,7 +226,6 @@ a {
 
 .skills__item {
 	display: flex;
-	/*justify-content: space-between;*/
 	flex: 1 1 400px;
 }
 
@@ -540,8 +541,6 @@ a {
 }
 
 .review__content {
-	/*position: relative;
-	z-index: 5;*/
 	align-items: center;
 	justify-content: space-between;
 }
@@ -723,3 +722,9 @@ a {
 .footer__copyright {
 	text-align: center;
 }
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Lemon', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
