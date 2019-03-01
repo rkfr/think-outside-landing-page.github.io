@@ -71,6 +71,11 @@
 		transform: translateY(-130px);
 	}
 
+	.procedure__description {
+		max-width: 500px;
+		width: 100%;
+	}
+
 	.container {
 		padding: 0 30px;
 	}
@@ -97,6 +102,18 @@
 	.team__image {
 		width: 266px;
 		height: 265px;
+	}
+
+	.team__name {
+		bottom: 125px;
+	}
+
+	.team__name_text {
+		font-size: 14.5px;
+	}
+
+	.team__role {
+		font-size: 11px;
 	}
 }
 
