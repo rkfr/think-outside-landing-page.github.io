@@ -59,6 +59,7 @@ a {
 	font-weight: bold;
 	font-size: 21px;
 	transition: .4s ease-out;
+	cursor: pointer;
 }
 
 .button:hover {
