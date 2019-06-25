@@ -1,1 +1,1 @@
-[demo](https://rkfr.github.io/tt_for_seowave.github.io/)
+[demo](https://rkfr.github.io/think-outside-landing-page.github.io/)
